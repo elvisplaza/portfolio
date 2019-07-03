@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elvis Plaza</title>
+    <meta name="description" content="Elvis Plaza is a Front-End Developer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet"> 
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <!-- ======================= header start ================== -->
+    <header class="header" id="home">
+        <section class="header__menu wrapper">
+            <label for="header__hamburger-menu-input" id="header__hamburger-menu-label" class=" header__hamburger-menu-label"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" class="display-none" id="header__hamburger-menu-input">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__options active"> <a class="menu__options--link">Home</a></li>
+                    <li class="menu__options active"> <a class="menu__options--link" href="#about">About</a></li>
+                    <li class="menu__options active"> <a class="menu__options--link" href="#projects">Portfolio</a></li>
+                    <li class="menu__options active"> <a class="menu__options--link" href="#contact">contact</a></li>
+                    <li class="menu__options active">
+                        
+                        <a class="menu__options--social-media menu__options--link" target="_blank" href="https://twitter.com/ElvisOnCoding"><i class="fab fa-twitter"></i></a>
+                        
+                        <a class="menu__options--social-media     menu__options--link" target="_blank" href="https://www.linkedin.com/in/elvis-p-554a96ab/"><i class="fab fa-linkedin-in"></i></a>
+
+                        <a class="menu__options--link menu__options--social-media " target="_blank" href="https://medium.com/@elvisplaza"><i class="fab fa-medium-m"></i></a>
+
+                        <a class="menu__options--link menu__options--social-media " target="_blank" href="https://github.com/elvisplaza?tab=repositories"><i class="fab fa-github"></i></a>
+
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="header__hero-content wrapper">
+            <div class="hero-content type">
+                <h1 class="hero-content__title">
+                    <span class="hero-content__title--lines">Elvis</span> 
+                    <p class="hero-content__title--on"> <span>front-End Developer</span></p>
+                </h1>
+                <!-- <div class="line-animation wrapper">
+                        <button class="line-animation__button">See more</button>
+                </div> -->
+            </div>
+            <div class="social-media">
+                <!-- ---------- social media naviation-------------- -->
+                <ul class="social-media__list">
+                    <li class="social-media__option"><a class="menu__options--link" target="_blank" href="https://twitter.com/ElvisOnCoding"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social-media__option"><a class="menu__options--link" target="_blank" href="https://www.linkedin.com/in/elvis-p-554a96ab/"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li class="social-media__option"><a class="menu__options--link" target="_blank" href="https://medium.com/@elvisplaza"><i class="fab fa-medium-m"></i></a></li>
+                    <li class="social-media__option"><a class="menu__options--link" target="_blank" href="https://github.com/elvisplaza?tab=repositories"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <!-- ======================================= main begins============================= -->
+
+    <!-- ------------------- Portfolio-------------------------------- -->
+    <main class="main"  id="projects">
+      
+           
+
+        <!-- ======================== fly swatter ================================= -->
+        <section class="wrapper portfolio "> 
+                <h2 class="portfolio__title" ><span class="portfolio__title--lines">Projects </span></h2>
+            <div class="portfolio__computer-screen wrapper">
+                    <img class="portfolio__computer-screen--computer" src="assets/computer-screen.svg" alt="a computer monitor that looks cartoonish">
+                    <div class="portfolio__computer-screen--hover wrapper">
+                            <a target="_blank" href="https://elvisplaza.github.io/fly-swatter/" class="portfolio__computer-screen--live">Live</a>
+                            <a target="_blank" href="https://github.com/elvisplaza/fly-swatter" class="portfolio__computer-screen--github">Github</a>
+                    </div>
+                    <!-- <img class="portfolio__computer-screen--project" src="./assets/fly-swatter.png" alt="a picture of a computer game called, 'fly swatter'."> -->
+                    <img src="assets/fly-swatter.png" class="portfolio__computer-screen--project" alt="a picture of a game which shows the start menu on a computer screen">
+                    <!-- <div>
+                        <img src="./assets/empty-paper.svg" alt="">
+                    </div> -->
+            </div>
+            <div class="portfolio__info wrapper">
+                <h3 class="portfolio__project-title">Fly Swatter</h3>
+                <div class="info__language-used">
+                    <p class="portfolio__language-used--abr portfolio__language-used--fly-swatter"> HTML5 / SASS / JavaScript / JQuery / NPM / Github / Responsive / Accessible</p>
+                </div>
+                <p class="portfolio__body-text"> <span class="portfolio__body-text--fly-swatter"><strong>Fly Swatter</strong></span> is an interactive game where you must swat as many flies before the timer runs out!</p>
+            </div>
+        </section>
+
+
+<!-- =================== Country Comparison ================================= -->
+        <section class="portfolio--white-background">
+            <div class="portfolio wrapper">
+                <div class="portfolio__computer-screen">
+                        <img class="portfolio__computer-screen--computer" src="./assets/computer-screen.svg" alt="a computer monitor that looks cartoonish">
+                        <div class="portfolio__computer-screen--hover wrapper">
+                                <a target="_blank" href="https://elvisplaza.github.io/c2-country-comparison/" class="portfolio__computer-screen--live">Live</a>
+                                <a target="_blank" href="https://github.com/elvisplaza/c2-country-comparison" class="portfolio__computer-screen--github">Github</a>
+                        </div>
+                        <img class="portfolio__computer-screen--project" src="./assets/country-comparison.png" alt="a picture of the world map with data being displayed.">
+                </div>
+                <div class="portfolio__info">
+                        <h3 class="portfolio__project-title">C2:Country-Comparison</h3>
+                        <div class="info__language-used">
+                                <p class="portfolio__language-used--abr portfolio__language-used--country-comparison"> HTML5 / SASS / JavaScript / JQuery / NPM / Github / Responsive / Accessible / Pair-Programming / API </p>
+                        </div>
+                    <p class="portfolio__body-text"> <span class="portfolio__body-text--project"><strong>C2:Country-Comparison</strong></span> is an application that uses the World Bank API with 13 different end points. Each country compares different statistics with your selected country. Country Comparison provides information like country gdp, population etc.</p>
+                </div>
+            </div>
+        </section>
+
+    <!-- ==================================== middl.=================================
+     -->
+
+        <section class="portfolio wrapper">
+            <!-- <h2 class="portfolio__title"><span class="portfolio__title--lines">Projects </span></h2> -->
+            <div class="portfolio__computer-screen">
+                <img class="portfolio__computer-screen--computer" src="./assets/computer-screen.svg" alt="a computer monitor that looks cartoonish">
+                <div class="portfolio__computer-screen--hover wrapper">
+                        <a target="_blank" href="https://meet-halfway-905ad.firebaseapp.com/" class="portfolio__computer-screen--live">Live</a>
+                        <a target="_blank" href="https://github.com/elvisplaza/middl" class="portfolio__computer-screen--github">Github</a>
+                </div>
+                <img class="portfolio__computer-screen--project" src="./assets/middl.png" alt="a picture of the world map with data being displayed.">
+            </div>
+            <div class="portfolio__info">
+                    <h3 class="portfolio__project-title">Middl.</h3>
+                <div class="info__language-used">
+                        <p class="portfolio__language-used--abr portfolio__language-used--middl"> HTML5 / SASS / JavaScript / NPM / Github / Responsive / Accessible / Group Programming / Recompose / Firebase / API / React </p>
+                </div>
+            <p class="portfolio__body-text"> <span class="portfolio__body-text--project"><strong>Middl.</strong></span> is an application that determines the exact middl. point between two addresses. The application also has a chat component and directions component. Middl. pulls data from three different APIs:<strong> Google Maps, Google GeoCode and Yelp. </strong> </p>
+            </div>
+        </section>
+
+
+        <!-- =================================== Cuddlying App ======================== -->
+        <section class="portfolio--white-background">
+                <div class="portfolio wrapper">
+                    <div class="portfolio__computer-screen">
+                            <img class="portfolio__computer-screen--computer" src="./assets/computer-screen.svg" alt="a computer monitor that looks cartoonish">
+                            <div class="portfolio__computer-screen--hover wrapper">
+                                    <a target="_blank" href="https://cuddle-app-801f3.firebaseapp.com/" class="portfolio__computer-screen--live">Live</a>
+                                    <a target="_blank" href="https://github.com/elvisplaza/down-to-cuddle" class="portfolio__computer-screen--github">Github</a>
+                            </div>
+                            <img class="portfolio__computer-screen--project" src="./assets/down-to-cuddle.png" alt="a picture of the world map with data being displayed.">
+                    </div>
+                    <div class="portfolio__info">
+                            <div class="info__language-used">
+                                <h3 class="portfolio__project-title">Down To Cuddle</h3>
+                                <p class="portfolio__language-used--abr portfolio__language-used--down-to-cuddle"> HTML5 / SASS / JavaScript / NPM / Github / Responsive / Accessible / Recompose / Firebase / React </p>
+                            </div>
+                        <p class="portfolio__body-text"> <span class="portfolio__body-text--project"><strong>Down To Cuddle</strong></span> is an application that asks the user several questions pertaining to their day. Depending on their answers, the user will be given a score and will predict if a person should cuddle or not! </p>
+                    </div>
+                </div>
+            </section>
+    
+<!-- ============================== about me section =========================== -->
+        <section class="about-me wrapper" id="about">
+                <h2 class="about-me__title"><span class="about-me__title--lines">This Guyyy </span></h2>
+                <div class="about-me__content">
+                       
+                    <div class="about-me__photo">
+                        <img class="about-me__photo--smiling" src="./assets/headshot-clipboard.png" alt="a picture of elvis plaza looking into the camera. the picture shows his top half.">
+                    </div>
+                    <div class="about-me__info">
+                        
+                        <p class="about-me__body-text"> I'm a front-end developer that was inspired to pursue this career at a young age. I remember building my first HTML website in High School, and being blown away with what the internet was capable of doing. I harnessed this passion to learn the fundamental languages needed to build fully functional websites.    
+                        </p>
+                        <p class="about-me__body-text"> Before becoming a Front-end developer, I was working as a sales representative for GoodLife. Besides working out, I enjoy salsa dancing, playing board games, reading Sci-fi books and watching oscar nominated movies</p>
+                        <div class="icon-content">
+                            <h3 class="icon-content__title">What I know</h3>
+                            <div class="icon-content__content">
+                                <img class="icon-content__icons " src="./assets/html-5.png" alt="a logo for html5">
+                                <img class="icon-content__icons " src="./assets/javascript.png" alt="a logo for javascript">
+                                <img class="icon-content__icons " src="./assets/jquery.png" alt="a logo for jquery">
+                                <img class="icon-content__icons " src="./assets/react.png" alt="a logo for react">
+                                <img class="icon-content__icons " src="./assets/sass.png" alt="a logo for sass">
+                                <img class="icon-content__icons " src="./assets/css-3.png" alt="a logo for css3">
+                                <img class="icon-content__icons " src="./assets/github.png" alt="a logo for github">
+                                <img class="icon-content__icons " src="./assets/firebase.png" alt="a logo for firebase">
+
+                            </div>
+                        </div>
+                        <div class="icon-content">
+                                <h3 class="icon-content__title">Currently learning</h3>
+                                <div class="icon-content__content icon-content__icons--currently-learning">
+                                    <img class="icon-content__icons" src="./assets/node-js.png" alt="a logo for node javascript">
+                                    <img class="icon-content__icons icon-content__icons--redux  " src="./assets/redux.png" alt="a logo for redux">
+                                    <img class="icon-content__icons " src="./assets/angular.png" alt="a logo for angular js">                                 
+                                    
+
+                                </div>
+                            </div>
+                    </div>
+                </div>
+    
+            </section>
+        
+        <section class="contact-me--background" id="contact">
+            <div class="wrapper contact-me">
+                    <h2 class="contact-me__title"><span class="contact-me__title--lines">Contact</span></h2>
+                <form action="http://www.focuspocus.io/magic/elvis.plaza@hotmail.com" class="contact-me__form" method="POST" id="contact-me__form">
+                    <div class="contact-me__form--relative">
+                        <label for="name" class="contact-me__form-name">Name</label>
+                        <input name="name" type="text" id="name" class="contact-me__form-name-input">
+                    </div>
+                    <div
+                    class="contact-me__form--relative">
+                        <label for="email" class="contact-me__form-email">Email</label>
+                        <input name="email" type="text" class="contact-me__form-email-input" id="email">
+                    </div>
+                    <div
+                    class="contact-me__form--relative">
+                        <label for="message" class="contact-me__form-text-area">Message</label>
+                        <textarea name="textarea" type="textarea" id="message" class="contact-me__form-text-area-input"></textarea>
+                    </div>
+                    <label for="submit" class="contact-me__form-submit"></label>
+                    <input type="submit" value="submit"
+                    class="contact-me__form-submit-input">
+                </form>
+
+            </div>
+        </section>
+
+
+    </main>
+    <footer class="footer">
+        <div class="footer__content">
+            <p class="footer__body-text">Developed by Elvis Plaza.   <a href="#home"><i class="fas fa-arrow-up footer__back-to-top"></i></a></p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="./scripts/script.js"></script>
+    
+</body>
+</html>

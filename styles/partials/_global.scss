@@ -1,0 +1,86 @@
+$primaryColor:#f8d548;
+$secondaryColor:#ef7780;
+$thirdColor:#d2eae3;
+$white:#fef9fd;
+$titleFont:"BIG JOHN", sans-serif;
+$textFont:"Open Sans", sans-serif;
+
+@mixin fontSize($sizeValue){
+    font-size:$sizeValue * 1px;
+    font-size:($sizeValue / 10) * 1rem;
+}
+
+
+@mixin lines($position){
+    position:$position;
+    display:inline-block;
+    
+    &:before,
+    &:after {
+        content: "";
+        position: absolute;
+        height: 10px;
+        top: 100px;
+        width:100%;
+    }
+    &:before{
+        border-top: 5px solid black;
+        left:2%;
+    }
+    &:after{
+        left:15%;
+        border-bottom:5px solid black;
+    }
+    
+}
+@mixin bodyTitle($weight){
+    @include fontSize(40);
+    font-family:$titleFont;
+    text-transform: uppercase;
+    font-weight:$weight;
+    margin:20px 0;
+}
+// =============== setups for text==============
+
+@mixin seeMore($width){
+    @include fontSize(30);
+    font-family: $titleFont;
+    border:1px solid black;
+    border-radius: 15px;
+    border-width:$width;
+    padding:15px 15px 10px 15px;
+
+}
+
+
+@mixin titleStyle($size){
+    @include fontSize($size);
+    font-weight:bold;
+    font-family:$titleFont;
+    color:black;
+    text-transform: uppercase;
+
+}
+@mixin bodyStyle($align){
+    @include fontSize(20);
+    font-family:'Open Sans', sans-serif;
+    text-align:$align;
+    line-height: 1.6;
+
+}
+@mixin button($align){
+    @include seeMore(1px);
+    align:$align;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+a:hover 
+{
+    color:$primaryColor;
+    background: black; 
+}

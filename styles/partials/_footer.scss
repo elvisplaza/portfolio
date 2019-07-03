@@ -1,0 +1,16 @@
+
+
+.footer{
+    background:black;
+    text-align:center;
+    color:white;
+    @include bodyStyle(center);
+    padding:10px 0;
+
+    &__body-text{
+        margin:0;
+    }
+    &__back-to-top{
+      color:$primaryColor;
+    }
+}
